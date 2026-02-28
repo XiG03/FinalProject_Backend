@@ -1,0 +1,12 @@
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\bin\Debug\net8.0\FinalProject.Backend.ServiceDefaults.deps.json
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\bin\Debug\net8.0\FinalProject.Backend.ServiceDefaults.dll
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\bin\Debug\net8.0\FinalProject.Backend.ServiceDefaults.pdb
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.csproj.AssemblyReference.cache
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.AssemblyInfoInputs.cache
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.AssemblyInfo.cs
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.dll
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\refint\FinalProject.Backend.ServiceDefaults.dll
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.pdb
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\ref\FinalProject.Backend.ServiceDefaults.dll
