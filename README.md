@@ -359,5 +359,6 @@ Ghi lại mọi hoạt động quan trọng để Admin có thể truy vết khi
 - **Backend**: ASP.NET Core 8 Web API, Entity Framework Core (Global Query Filter cho Soft Delete), SignalR, Hangfire.
 - **Frontend**: ReactJS.
 - **Database**: SQL Server.
+- **DevOps & Infrastructure**: GitHub Actions, Azure DevOps, Docker
 - **Storage**: **Local File System (Server Disk)**.
 - **Email Service**: SMTP (Gmail/SendGrid) để gửi OTP.
