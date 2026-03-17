@@ -15,7 +15,7 @@ public class FinalProject_Backend : global::Aspire.Hosting.IProjectMetadata
     /// <summary>
     /// The path to the FinalProject_Backend project.
     /// </summary>
-    public string ProjectPath => """D:\Private\FinalProject.Backend\FinalProject.Backend\FinalProject.Backend.csproj""";
+    public string ProjectPath => """d:\Private\FinalProject.Backend\FinalProject.Backend\FinalProject.Backend.csproj""";
 
     /// <summary>
     /// Gets a value indicating whether building the project before running it should be suppressed.
