@@ -17,15 +17,15 @@ using System.Reflection;
     "ext\\"))]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", ("C:\\Users\\qnhat\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\13.1.0\\tools\\" +
     "ext\\bin\\"))]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "d:\\Private\\FinalProject.Backend\\FinalProject.Backend.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "D:\\Private\\FinalProject.Backend\\FinalProject.Backend.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "FinalProject.Backend.AppHost.csproj")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", ("C:\\Users\\qnhat\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\13.1.0\\tools\\Aspire.D" +
     "ashboard.exe"))]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "d:\\Private\\FinalProject.Backend\\FinalProject.Backend.AppHost\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "D:\\Private\\FinalProject.Backend\\FinalProject.Backend.AppHost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinalProject.Backend.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e89e06c66ad56e6a03ab1f8ac53f70e530214bd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75f2ad984b33bc088479613e88291af0196ffa0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinalProject.Backend.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinalProject.Backend.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

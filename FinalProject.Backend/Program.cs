@@ -33,10 +33,12 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Register Repositories Injection
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<IJwtRepository, JwtRepository>();
 
 
 // Register Services Injection
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IJwtService, JwtService>();
 
 
 

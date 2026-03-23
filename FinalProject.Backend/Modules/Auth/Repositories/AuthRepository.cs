@@ -21,8 +21,14 @@ public class AuthRepository : IAuthRepository
         throw new NotImplementedException();
     }
 
-    public Task<string> LoginAsync(AuthDto authDto)
+    public async Task<string> LoginAsync(AuthDto authDto)
     {
+        var user = await _userManager.FindByNameAsync(authDto.Username);
+        if(user == null)
+        {
+            return null;
+        }
+        
         throw new NotImplementedException();
     }
 
@@ -36,13 +42,19 @@ public class AuthRepository : IAuthRepository
         throw new NotImplementedException();
     }
 
-    public Task<bool> RegisterAsync(AuthDto authDto)
+    public async Task<bool> RegisterAsync(AuthDto authDto)
     {
 
         var user = new ApplicationUser();
 
-        
-       
+        user.UserName = authDto.Username;
+        user.Email = authDto.Email;
+        user.NormalizedUserName = authDto.Username.ToUpper();
+        user.NormalizedEmail = authDto.Email.ToUpper();
+
+        await _userManager.CreateAsync(user, authDto.Password);
+
+        return true;
 
         throw new NotImplementedException();
     }

@@ -17,5 +17,5 @@ public class FinalProject_Backend_AppHost
     /// <summary>
     /// The path to the Aspire Host project.
     /// </summary>
-    public static string ProjectPath => """d:\Private\FinalProject.Backend\FinalProject.Backend.AppHost""";
+    public static string ProjectPath => """D:\Private\FinalProject.Backend\FinalProject.Backend.AppHost""";
 }
