@@ -13,4 +13,6 @@ public interface IAuthRepository
     Task<string> GeneratePasswordResetTokenAsync(ApplicationUser user);
     Task<bool> ResetPasswordAsync(ApplicationUser user, string resetToken, string newPassword);
     Task UpdateSecurityStampAsync(ApplicationUser user);
+    Task UpdateAsync(ApplicationUser user);
+    
 }

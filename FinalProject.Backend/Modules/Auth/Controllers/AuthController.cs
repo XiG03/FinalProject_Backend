@@ -19,7 +19,7 @@ public class AuthController : ControllerBase
 
     [HttpPost("login")]
     [AllowAnonymous]
-    public async Task<IActionResult> Login([FromBody] AuthDto request)
+    public async Task<IActionResult> Login([FromBody] LoginDto request)
     {
         if (!ModelState.IsValid)
             return BadRequest(ModelState);

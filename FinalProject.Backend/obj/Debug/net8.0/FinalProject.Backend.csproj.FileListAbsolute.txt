@@ -183,3 +183,4 @@ D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\refint\Fin
 D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.pdb
 D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.genruntimeconfig.cache
 D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\ref\FinalProject.Backend.dll
+D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
