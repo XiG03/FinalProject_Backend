@@ -6,6 +6,7 @@ D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\n
 D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.AssemblyInfoInputs.cache
 D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.AssemblyInfo.cs
 D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.sourcelink.json
 D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\refint\FinalProject.Backend.ServiceDefaults.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend.ServiceDefaults\obj\Debug\net8.0\FinalProject.Backend.ServiceDefaults.pdb

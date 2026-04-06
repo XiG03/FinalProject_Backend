@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Private\\FinalProject.Backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8288AE0A-555C-9AFD-8187-145E32769A0C}|FinalProject.Backend.AppHost\\FinalProject.Backend.AppHost.csproj|d:\\private\\finalproject.backend\\finalproject.backend.apphost\\finalproject.backend.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8288AE0A-555C-9AFD-8187-145E32769A0C}|FinalProject.Backend.AppHost\\FinalProject.Backend.AppHost.csproj|solutionrelative:finalproject.backend.apphost\\finalproject.backend.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43939253-2D26-3E32-3F89-240E4EBFB945}|FinalProject.Backend\\FinalProject.Backend.csproj|d:\\private\\finalproject.backend\\finalproject.backend\\finalproject.backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{43939253-2D26-3E32-3F89-240E4EBFB945}|FinalProject.Backend\\FinalProject.Backend.csproj|solutionrelative:finalproject.backend\\finalproject.backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FinalProject.Backend.AppHost",
+              "DocumentMoniker": "D:\\Private\\FinalProject.Backend\\FinalProject.Backend.AppHost\\FinalProject.Backend.AppHost.csproj",
+              "RelativeDocumentMoniker": "FinalProject.Backend.AppHost\\FinalProject.Backend.AppHost.csproj",
+              "ToolTip": "D:\\Private\\FinalProject.Backend\\FinalProject.Backend.AppHost\\FinalProject.Backend.AppHost.csproj",
+              "RelativeToolTip": "FinalProject.Backend.AppHost\\FinalProject.Backend.AppHost.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-09T07:05:34.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FinalProject.Backend.http",
+              "DocumentMoniker": "D:\\Private\\FinalProject.Backend\\FinalProject.Backend\\FinalProject.Backend.http",
+              "RelativeDocumentMoniker": "FinalProject.Backend\\FinalProject.Backend.http",
+              "ToolTip": "D:\\Private\\FinalProject.Backend\\FinalProject.Backend\\FinalProject.Backend.http",
+              "RelativeToolTip": "FinalProject.Backend\\FinalProject.Backend.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-11T15:45:49.014Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8ikzzzNAILI=",
+  "dgSpecHash": "FzJXuH6kjM4=",
   "success": true,
   "projectFilePath": "D:\\Private\\FinalProject.Backend\\FinalProject.Backend.AppHost\\FinalProject.Backend.AppHost.csproj",
   "expectedPackageFiles": [
@@ -67,7 +67,11 @@
     "C:\\Users\\qnhat\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.1\\system.diagnostics.eventlog.8.0.1.nupkg.sha512",
     "C:\\Users\\qnhat\\.nuget\\packages\\system.io.hashing\\9.0.10\\system.io.hashing.9.0.10.nupkg.sha512",
     "C:\\Users\\qnhat\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
-    "C:\\Users\\qnhat\\.nuget\\packages\\yamldotnet\\16.3.0\\yamldotnet.16.3.0.nupkg.sha512"
+    "C:\\Users\\qnhat\\.nuget\\packages\\yamldotnet\\16.3.0\\yamldotnet.16.3.0.nupkg.sha512",
+    "C:\\Users\\qnhat\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\qnhat\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\qnhat\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\qnhat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
   ],
   "logs": []
 }
