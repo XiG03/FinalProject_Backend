@@ -5,7 +5,7 @@ namespace FinalProject.Backend.Modules.Auth.Services;
 
 public interface IAuthService
 {
-    Task<TokenResponseDto?> LoginAsync(AuthDto request);
+    Task<TokenResponseDto?> LoginAsync(LoginDto request);
     Task<ApplicationUser?> RegisterAsync(AuthDto request);
     Task<bool> LogoutAsync(Guid userId);
     Task<string> ForgotPasswordAsync(string username, string email);

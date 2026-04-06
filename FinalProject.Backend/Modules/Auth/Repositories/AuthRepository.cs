@@ -71,4 +71,11 @@ public class AuthRepository : IAuthRepository
     {
         await _userManager.UpdateSecurityStampAsync(user);
     }
+
+    public Task UpdateAsync(ApplicationUser user)
+    {
+        _context.Users.Update(user);
+        return _context.SaveChangesAsync();
+        throw new NotImplementedException();
+    }
 }

@@ -15,7 +15,7 @@ public class AuthService : IAuthService
         _jwtService = jwtService;
     }
 
-    public async Task<TokenResponseDto?> LoginAsync(AuthDto request)
+    public async Task<TokenResponseDto?> LoginAsync(LoginDto request)
     {
         var user = await _authRepository.AuthenticateAsync(request.Username, request.Password);
         
@@ -40,7 +40,10 @@ public class AuthService : IAuthService
         {
             // Updating SecurityStamp invalidates all previously issued JWTs 
             // if you configure JwtBearerOptions to validate the security stamp.
-            await _authRepository.UpdateSecurityStampAsync(user);
+            user.RefreshToken = null; // Clear refresh token if you are using it
+            user.RefreshTokenExpiryTime = null;
+
+            await _authRepository.UpdateAsync(user);
             return true;
         }
         return false;
