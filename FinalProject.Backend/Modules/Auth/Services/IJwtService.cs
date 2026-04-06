@@ -9,8 +9,6 @@ public interface IJwtService
 
     public string CreateTokenAsync(ApplicationUser user);
 
-    
-
     public Task<ApplicationUser> ValidateRefreshTokenAsync(Guid userId, string refreshToken);
 
     public Task<TokenResponseDto> RefreshTokenAsync(TokenRequestDto request);

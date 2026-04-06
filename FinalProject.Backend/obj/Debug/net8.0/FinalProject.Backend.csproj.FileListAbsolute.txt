@@ -1,4 +1,12 @@
-D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\appsettings.Development.json
+D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.csproj.AssemblyReference.cache
+D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.AssemblyInfoInputs.cache
+D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.AssemblyInfo.cs
+D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.csproj.CoreCompileInputs.cache
+D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.MvcApplicationPartsAssemblyInfo.cs
+D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.MvcApplicationPartsAssemblyInfo.cache
+D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.sourcelink.json
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\appsettings.json
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\appsettings.Production.json
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\FinalProject.Backend.staticwebassets.endpoints.json
@@ -10,6 +18,9 @@ D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\FinalProje
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Azure.Core.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Azure.Identity.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Humanizer.dll
+D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -37,6 +48,8 @@ D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Extensions.Http.Diagnostics.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Extensions.Http.Resilience.dll
+D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
@@ -155,15 +168,6 @@ D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\runtimes\w
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\FinalProject.Backend.ServiceDefaults.dll
 D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\FinalProject.Backend.ServiceDefaults.pdb
-D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.csproj.AssemblyReference.cache
-D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\rpswa.dswa.cache.json
-D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.GeneratedMSBuildEditorConfig.editorconfig
-D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.AssemblyInfoInputs.cache
-D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.AssemblyInfo.cs
-D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.csproj.CoreCompileInputs.cache
-D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.MvcApplicationPartsAssemblyInfo.cs
-D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.MvcApplicationPartsAssemblyInfo.cache
-D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.sourcelink.json
 D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -179,8 +183,3 @@ D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\refint\Fin
 D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.pdb
 D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\FinalProject.Backend.genruntimeconfig.cache
 D:\Private\FinalProject.Backend\FinalProject.Backend\obj\Debug\net8.0\ref\FinalProject.Backend.dll
-D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-D:\Private\FinalProject.Backend\FinalProject.Backend\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll

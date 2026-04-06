@@ -1,14 +1,16 @@
-﻿using FinalProject.Backend.Modules.Auth.DTOs;
+using FinalProject.Backend.Data.Entities;
+using FinalProject.Backend.Modules.Auth.DTOs;
 
 namespace FinalProject.Backend.Modules.Auth.Repositories;
 
 public interface IAuthRepository
 {
-    public Task<bool> RegisterAsync(AuthDto authDto);
-    public Task<string> LoginAsync(AuthDto authDto);
-    public Task<string> LogoutAsync(Guid userId);
-    public Task<string> ForgotPasswordAsync(string email);
-    public Task<bool> ResetPasswordAsync(string email, string newPassword);
-    public Task<bool> UserExistsAsync(string username);
-    public Task<TokenResponseDto> RefreshTokenAsync(TokenRequestDto request);
+    Task<ApplicationUser?> RegisterAsync(AuthDto request);
+    Task<ApplicationUser?> AuthenticateAsync(string username, string password);
+    Task<ApplicationUser?> GetUserByUsernameAsync(string username);
+    Task<ApplicationUser?> GetUserByEmailAsync(string email);
+    Task<ApplicationUser?> GetUserByIdAsync(Guid userId);
+    Task<string> GeneratePasswordResetTokenAsync(ApplicationUser user);
+    Task<bool> ResetPasswordAsync(ApplicationUser user, string resetToken, string newPassword);
+    Task UpdateSecurityStampAsync(ApplicationUser user);
 }

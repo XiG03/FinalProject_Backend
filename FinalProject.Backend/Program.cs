@@ -11,7 +11,7 @@ using FinalProject.Backend.Data.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.AddServiceDefaults();
 
 // Add services to the container.
 
@@ -60,5 +60,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapGet("/", () => Results.Redirect("/swagger"));
 
 app.Run();

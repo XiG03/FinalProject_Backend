@@ -1,4 +1,4 @@
-﻿using System.IdentityModel.Tokens.Jwt;
+using System.IdentityModel.Tokens.Jwt;
 using System.Reflection.Metadata.Ecma335;
 using System.Security.Claims;
 using System.Security.Cryptography;
@@ -16,18 +16,14 @@ public class JwtService : IJwtService
 {
     private readonly IConfiguration _configuration;
 
-    private readonly AppDbContext _context;
-
     private readonly UserManager<ApplicationUser> _userManager;
 
     private readonly IJwtRepository _jwtRepository;
     public JwtService(IConfiguration configuration, 
-                        AppDbContext context, 
                         UserManager<ApplicationUser> userManager,
                         IJwtRepository jwtRepository)
     {
         _configuration = configuration;
-        _context = context;
         _userManager = userManager;
         _jwtRepository = jwtRepository;
     }
@@ -56,19 +52,15 @@ public class JwtService : IJwtService
         );
 
         return new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
-
-        throw new NotImplementedException();
     }
 
     public async Task<TokenResponseDto> CreateTokenResponseAsync(ApplicationUser user)
     {
-        
-        return Task.FromResult(new TokenResponseDto
+        return new TokenResponseDto
         {
             AccessToken = CreateTokenAsync(user),
-            RefreshToken = await _jwtRepository.GenerateAndSaveRefreshTokenAsync(user);
-        });
-        throw new NotImplementedException();
+            RefreshToken = await _jwtRepository.GenerateAndSaveRefreshTokenAsync(user)
+        };
     }
   
 
@@ -80,7 +72,6 @@ public class JwtService : IJwtService
             return null;
         }
         return await CreateTokenResponseAsync(user);
-        throw new NotImplementedException();
     }
 
     public async Task<ApplicationUser> ValidateRefreshTokenAsync(Guid userId,string refreshToken)
@@ -91,7 +82,6 @@ public class JwtService : IJwtService
             return null;
         }
         return user;
-        throw new NotImplementedException();
     }
 }
 
