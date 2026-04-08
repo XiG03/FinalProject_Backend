@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Private\\FinalProject.Backend\\FinalProject.Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46D39867-A3A4-4413-36A7-6E276FA98723}|FinalProject.Backend.csproj|d:\\private\\finalproject.backend\\finalproject.backend\\modules\\user\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D39867-A3A4-4413-36A7-6E276FA98723}|FinalProject.Backend.csproj|solutionrelative:modules\\user\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D39867-A3A4-4413-36A7-6E276FA98723}|FinalProject.Backend.csproj|d:\\private\\finalproject.backend\\finalproject.backend\\modules\\auth\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D39867-A3A4-4413-36A7-6E276FA98723}|FinalProject.Backend.csproj|solutionrelative:modules\\auth\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 176,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Private\\FinalProject.Backend\\FinalProject.Backend\\Modules\\User\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Modules\\User\\Services\\UserService.cs",
+              "ToolTip": "D:\\Private\\FinalProject.Backend\\FinalProject.Backend\\Modules\\User\\Services\\UserService.cs*",
+              "RelativeToolTip": "Modules\\User\\Services\\UserService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T01:43:34.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "D:\\Private\\FinalProject.Backend\\FinalProject.Backend\\Modules\\Auth\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Modules\\Auth\\Repositories\\AuthRepository.cs",
+              "ToolTip": "D:\\Private\\FinalProject.Backend\\FinalProject.Backend\\Modules\\Auth\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "Modules\\Auth\\Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T01:43:07.063Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

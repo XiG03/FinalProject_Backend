@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"1bpNyuzuUgS3jzV6Nm/7/Wbfl9MXa1UjAtlcJO8bwTg=","Source":"FinalProject.Backend","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "9cqU/uZGTweuN+pL1N1jiST6GBO4Qk4G5k7lGJKOocI=",
+  "Source": "FinalProject.Backend",
+  "BasePath": "_content/FinalProject.Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

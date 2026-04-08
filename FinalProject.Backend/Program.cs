@@ -7,6 +7,7 @@ using FinalProject.Backend.Modules.Auth.Repositories;
 using FinalProject.Backend.Modules.Auth.Services;
 using Microsoft.AspNetCore.Identity;
 using FinalProject.Backend.Data.Entities;
+using FinalProject.Backend.Modules.User.Repositories;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddServiceDefaults();
 
 // Add services to the container.
-
+    
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -34,6 +35,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Register Repositories Injection
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 builder.Services.AddScoped<IJwtRepository, JwtRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 
 // Register Services Injection
